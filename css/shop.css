@@ -1,0 +1,82 @@
+.shop {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(5, 13.938rem);
+    gap:3rem;
+    justify-content: center;
+}
+
+.item {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:10px;
+}
+
+.price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 1rem;
+}
+
+.bi-dash-lg, .bi-plus-lg {
+    background-color: rgb(253, 183, 55);
+    border-radius: 50%;
+    padding: 2px 3px 2px 3px;
+    cursor: pointer;
+}
+
+
+/* ----------------- CART --------------------- */
+.cart-container {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(253, 183, 55);
+    padding: 1rem 1rem 1rem 1rem;
+   
+}
+
+.main-selection {
+    margin-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.cartAmount {
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    padding: 3px 4.5px 3px 4.5px;
+    border-radius: 50%;
+}
+
+i {
+    cursor: pointer;
+}

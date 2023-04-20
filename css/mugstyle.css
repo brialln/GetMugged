@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: none;
+    width: 100vw;
+    position: fixed;
+    z-index: 11;
+    background: none;
+    height: 70px;
+    top:0;
+    left: 0;
+}
+
+.nav_click:hover {
+    opacity: 0.5;
+}
+
+.nav_click:active {
+    opacity: 0.5;
+}
+
+.header-left {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.window-scroll {
+    background-color: rgb(253, 183, 55);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.logo-name {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+    align-items: center;
+    width: 500px;
+}
+
+
+
+/*-------- header ----------*/
+
+header {
+    position: relative;
+    top: 5rem;
+    overflow: visible;
+    height: 70vh;
+    margin-bottom: 5rem;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+.right_side-image {
+    margin-right: 2rem;
+}
+
+.left-side {
+    margin-left: 40px;
+}
+
+.header-container h1 {
+    margin: 1rem 0 1rem;
+    font-weight: 600;
+}
+
+.header-container p {
+    margin-bottom: 1rem;
+    line-height: 1.6rem;
+    width: 360px;
+}
+
+.sale_button {
+    background-color: rgb(253, 183, 55);
+    padding: 20px 20px 20px 20px;
+    font-family: Montserrat;
+    font-weight: 450;
+    font-size: 25px;
+    color:rgb(255, 250, 214);
+    border: 2px solid black;
+    border-color:rgb(253, 183, 55);
+    border-radius: 5px;
+}
+
+.sale_button:hover{
+    border: 2px solid black;
+    border-color:rgb(253, 183, 55);
+    background: none;
+    color:black;
+}
+
+.sale_button:active {
+    color:rgb(255, 250, 214);
+    background-color: rgb(253, 183, 55);
+}
+
+.mug {
+    margin-top: 35px;
+    margin-right: 10px;
+    display: inline-block;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.mug_info {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.product_name {
+    margin-bottom: 3px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.product_price {
+    font-size: 14px;
+}
+
+.arrow_more-container {
+    display: inline-block;
+}
+.arrow_more-button {
+    font-size: 40px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50%;
+}
+
+.arrow_more-button:hover {
+    opacity: 0.2;
+}
+
+.arrow_more-button:active {
+    opacity: 0.5;
+}
+
+
+
+
+/*----------- footer -------------- */
+
+footer {
+    margin-top: 11rem;
+    background: rgb(253, 183, 55);
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+    color:black;
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+}
+
+.footer_1 {
+    margin-left: 6rem;
+}
+
+.footer_2, .footer_3 {
+    margin-left: 6rem;
+}
+
+.footer_4 {
+    margin-left: 1.5rem;
+}
+
+.head_line {
+    font-weight: 650;
+    margin-bottom: 1rem;
+}
+
+.business_info {
+    line-height: 20px;
+    font-weight: 420;
+}
+
+.shop_links, .services_links {
+    line-height: 30px;
+    font-weight: 420;
+}
+
+.footer_socials {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer_copyright {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    border-top: 1px solid rgb(255, 250, 214);
+}
+
+
+/* -------------------  SALE   ---------------------- */
+
+.section_banner {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem;
+    background-color: rgb(253, 183, 55);
+    text-align: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 30px;
+}
+
+.sale_section-container {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    justify-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mug_sale {
+    margin-top: 35px;
+    margin-right: 2rem;
+    display: inline-block;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 255px;
+}
+
+.add-to-cart {
+    background-color: rgb(253, 183, 55);
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    opacity: 0.8;
+}
+
+.add-to-cart:active {
+    opacity: 0.5;
+}
+
+
+
+
+/* --------------------- SHOP ------------------------ */
+
