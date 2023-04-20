@@ -86,6 +86,6 @@ let generateCartItems = () => {
         console.log("basket is not empty")
     }
     else {
-        console.log("basket is empty")
+        console.log("basket is empty...")
     }
 }
