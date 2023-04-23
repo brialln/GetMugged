@@ -6,7 +6,7 @@ window.addEventListener('scroll', () => {
 
 let shop = document.getElementById('shop')
 
-let basket = JSON.parse(localStorage.getItem("data")) || [];
+let basket = JSON.parse(localStorage.getItem("data")) || []
 
 let generateShop = () => {
     return (shop.innerHTML =  shopItemsData.map((x) => {
@@ -89,3 +89,6 @@ let generateCartItems = () => {
         console.log("basket is empty...")
     }
 }
+
+generateCartItems()
+

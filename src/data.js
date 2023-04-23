@@ -1,4 +1,6 @@
-let shopItemsData = [{
+let shopItemsData = [
+
+{
     id: "anhdfjasn",
     name: "Mudmug",
     price: 13.13,
@@ -31,4 +33,6 @@ let shopItemsData = [{
     name: "Pengmug",
     price: 14.00,
     img: "picturettes/mug5.jpg"
-}]
+}];
+
+
